@@ -1,0 +1,25 @@
+.technologies-container {
+    /* background-color: #f9f9f9;  */
+    /* padding: 40px 20px;  */
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tech-item {
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+    text-align: center; /* Center align text */
+  }
+  
+  .tech-item:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  
+  .tech-icon {
+    transition: color 0.3s; /* Smooth transition for color change on hover */
+  }
+  
+  .tech-icon:hover {
+    color: #000; /* Change color on hover (you can customize this) */
+  }
+  
