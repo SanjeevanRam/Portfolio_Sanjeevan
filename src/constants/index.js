@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
+import project5 from "../assets/projects/project-4.webp";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, Express, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -11,8 +12,16 @@ export const EXPERIENCES = [];
 
 export const PROJECTS = [
   {
-    title: "Airbnb",
+    title: "Chat-App",
     image: project1,
+    description:
+      "A fully functional e-commerce website with features like A Chat App is a platform where users can send and receive messages instantly. It is designed to make communication easy and can be used for personal chats or work-related conversations.",
+    technologies: ["CSS", "Bootstrap", "EJS", "Node.js", "Express", "MongoDB"],
+    link: "https://chat-app-pmdp.onrender.com/" 
+  },
+  {
+    title: "Airbnb",
+    image: project2,
     description:
       "A fully functional e-commerce website with features like product listing, Editing, add Review with rating, and user authentication. Discover a seamless and immersive travel experience with our Airbnb Clone website. Designed to connect travelers with unique accommodations worldwide, it offers a wide range of stays—from cozy apartments to luxurious villas. Hosts can effortlessly list their properties, while guests can explore, book, and manage their trips with ease.",
     technologies: ["CSS", "Bootstrap", "EJS", "Node.js", "Express", "MongoDB"],
@@ -20,7 +29,7 @@ export const PROJECTS = [
   },
   {
     title: "Weather App",
-    image: project2,
+    image: project3,
     description:
       "Stay informed and plan your day with ease using our Weather App. Get real-time weather updates, accurate forecasts, and detailed information for any location worldwide. Whether you're checking for rain before heading out or planning a weekend getaway, our app provides everything you need — from current temperature and humidity to wind speed.",
     technologies: ["ReactJs", "Weather API"],
@@ -28,7 +37,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: project4,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "JavaScript"],
@@ -36,7 +45,7 @@ export const PROJECTS = [
   },
   {
     title: "Rock-Paper-Scissors-game",
-    image: project4,
+    image: project5,
     description:
       "Rock-Paper-Scissors Game is a simple yet engaging web-based game where players compete against the computer in the timeless battle of strategy and luck. Choose your move—Rock, Paper, or Scissors—and see if you can outsmart your opponent.",
     technologies: ["HTML", "CSS", "JavaScript"],
